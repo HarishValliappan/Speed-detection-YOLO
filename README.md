@@ -28,8 +28,7 @@ Ensure you have a video file named  [`Input.mp4`](video/highway.mp4) in the proj
 
 ### Run the speed detection script:
     ```bash
-python speed_detection.py
-
+    python speed_detection.py
 ### View the output:
 The processed video with annotated vehicle speeds will be saved as  [`Output`](video/output_video.mp4) in the project directory.
 
