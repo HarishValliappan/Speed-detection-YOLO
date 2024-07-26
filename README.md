@@ -26,9 +26,9 @@ This project demonstrates a vehicle speed detection system using a YOLO object d
 ### Prepare your input video:
 Ensure you have a video file named  [`Input.mp4`](video/highway.mp4) in the project directory or update the code to reflect the path to your video file.
 
-### Run the speed detection script:
+### **Run the speed detection script:**
     ```bash
-    pyhon speed_detection.py
+    python speed_detection.py
 
 ### View the output:
 The processed video with annotated vehicle speeds will be saved as  [`Output`](video/output_video.mp4) in the project directory.
