@@ -31,7 +31,7 @@ Ensure you have a video file named  [`Input.mp4`](video/highway.mp4) in the proj
     python speed_detection.py
 
 ### View the output:
-The processed video with annotated vehicle speeds will be saved as  [`Output video.mp4`](video/output video.mp4) in the project directory.
+The processed video with annotated vehicle speeds will be saved as  [`Output-video.mp4`](video/output video.mp4) in the project directory.
 
 ## Methodology
 - **Object Detection:** The YOLO model is used to detect vehicles in each frame of the input video.
@@ -40,7 +40,7 @@ The processed video with annotated vehicle speeds will be saved as  [`Output vid
 - **Annotation:** The calculated speed and vehicle ID are annotated on the output video frames.
 
 ## Results
-You can view a sample output video demonstrating the speed detection capabilities of the system here: [Output Video](path/to/your/output.mp4)
+You can view a sample output video demonstrating the speed detection capabilities of the system here: [`Output-video.mp4`](video/output video.mp4)
 
 ## Note
 The speed detection accuracy improves with more powerful GPUs, as they enable faster and more precise frame processing.
