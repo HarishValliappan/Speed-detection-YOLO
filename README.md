@@ -1,4 +1,4 @@
-# Speed Detection Project
+# Speed-detection-YOLO
 
 ## Introduction
 This project demonstrates a vehicle speed detection system using a YOLO object detection model and OpenCV. The system captures video footage of vehicles passing through a frame and calculates their speeds based on the time taken to cross two predefined lines.
@@ -28,7 +28,7 @@ Ensure you have a video file named  [`Input.mp4`](video/highway.mp4) in the proj
 
 ### Run the speed detection script:
     ```bash
-    python speed_detection.py
+    pyhon speed_detection.py
 
 ### View the output:
 The processed video with annotated vehicle speeds will be saved as  [`Output`](video/output_video.mp4) in the project directory.
