@@ -16,7 +16,7 @@ This project demonstrates a vehicle speed detection system using a YOLO object d
    git clone https://github.com/yourusername/speed-detection-project.git
    cd speed-detection-project
 2. **Install required libraries:**
-   '''bash
+   ```bash
    pip install -r requirements.txt
 3. **Download the YOLO model weights:**
    Download the yolov8s.pt model file from the official YOLO repository and place it in the project directory.
@@ -24,14 +24,14 @@ This project demonstrates a vehicle speed detection system using a YOLO object d
 ## Usage
 
 ### Prepare your input video:
-Ensure you have a video file named `video/highway.mp4` in the project directory or update the code to reflect the path to your video file.
+Ensure you have a video file named  [`Input.mp4`](video/highway.mp4) in the project directory or update the code to reflect the path to your video file.
 
 ### Run the speed detection script:
-```bash
-python speed_detection.py
+    ```bash
+    python speed_detection.py
 
 ### View the output:
-The processed video with annotated vehicle speeds will be saved as output video.mp4 in the project directory.
+The processed video with annotated vehicle speeds will be saved as  [`Output video.mp4`](video/output video.mp4) in the project directory.
 
 ## Methodology
 - **Object Detection:** The YOLO model is used to detect vehicles in each frame of the input video.
